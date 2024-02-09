@@ -1,0 +1,85 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(255, 255, 255);
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    border-radius: 20px;
+    width: 30vw;
+    margin-top: 1vw;
+    box-shadow: 1px 2px 10px rgb(19 189 19);
+}
+.head h1{
+    text-align: center;
+    padding: 2vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(19 189 19);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8vw;
+}
+.receipt{
+    display: flex;
+    justify-content: center;
+}
+.receipt h1{
+background-color: transparent;
+}
+.info{
+    text-align: left;
+    padding: 1vw;
+    line-height: 2vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+}
+.info h1{
+    background-color: transparent;
+    font-size: 1vw;
+
+}
+.data{
+    justify-content: left;
+    padding: 1vw;
+    line-height: 2vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.data h1{
+    background-color: transparent;
+    font-size: 1vw;
+}
+.final{
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.final h2{
+    font-size: 2vw;
+    color: rgb(9, 30, 80);
+    padding: 3vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: transparent;
+    padding: 1vw;
+}
+.line{
+    border-top: 1px dashed grey;
+}
+.final h3{
+    font-size: 1vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: transparent;
+    padding: 1vw;
+}
+.final h4{
+    font-size: 1vw;
+    padding: 1vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: transparent;
+}
+.logo{
+    height: 2vw;
+}
